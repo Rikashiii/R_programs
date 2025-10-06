@@ -11,4 +11,3 @@ housing[,c(4,6)]    #extracts 4th and 6t column
 housing[,-c(4,6)]   #extracts except 4th and 6th column
 
 housing[c(3,5,18,20,450),]    #extracts specific rows
-
