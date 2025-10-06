@@ -15,3 +15,7 @@ a <- c(3,4,5,6,78,45,4,65)
 c <- c(24,30,52,46)
 cb <- cbind(a, c)
 #does not give warning if length of a and c are multiples of each other
+
+a <- array(data = c(3,4,6,5,563,234,12,52,56,54,6435,234,23),
+           dim = c(2,2,3))
+a
