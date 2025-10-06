@@ -9,6 +9,10 @@ sum(is.na(g)) #FALSE=0, TRUE=1, adds the vector and gives the sum
 w <- 0/0
 w           #gives output NaN(not a number) instead of 0
 is.nan(w)
+<<<<<<< HEAD
 is.na(w)
 is.finite(w)
 is.infinite(w)
+=======
+is.na(w)
+>>>>>>> f74edd3c1e1244456e642debb148044643531656
