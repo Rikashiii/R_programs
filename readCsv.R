@@ -15,3 +15,4 @@ bollywood2
 #set column names 
 colnames(bollywood2) <- c("Movie", "Collection","Budget","Hit/Flop")
 bollywood2
+diamonds <- read.csv2("D:/Datasets/Diamonds.csv")
