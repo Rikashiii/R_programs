@@ -1,10 +1,12 @@
 #while loop
 
 count <- 1
-while(count < 500000){
-  print(count)
+while(count < 100){
   count <- count + 1
   if (count == 69){
-    break           #exits the loop
+    next}           #exits the loop
+  else if (count==95){
+    break
   }
+  print(count)
 }
