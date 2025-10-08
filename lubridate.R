@@ -1,4 +1,7 @@
+#sets working directory for console globally
 setwd("D:/Datasets/")
+
+
 library(lubridate)
 orders <- read.csv("Orders.csv")
 
