@@ -24,3 +24,7 @@ View(fil_cars)
 #rename (new_name = old_name)
 ren_cars <- rename(cars2018, Max_eth = Max.Ethanol)
 ren_cars <- rename(cars2018, MIndex = Model.Index )
+
+#mutate 
+mut_cars = mutate(cars2018, ratio=Displacement/Cylinders)
+View(cars2018)
