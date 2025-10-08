@@ -1,5 +1,5 @@
 library(dplyr)
-cars2018 <- read.csv("D:/Datasets/cars2018.csv", stringsAsFactors = TRUE)
+cars2018 <- read.csv("cars2018.csv", stringsAsFactors = TRUE)
 
 #sorting on the column name
 s_cars <- arrange(cars2018, Displacement)
@@ -27,3 +27,6 @@ sel_cars <- select(cars2018, -Gears)
 
 #select columns except Model to Transmission
 sel_cars <- select(cars2018, -c(Model:Transmission))
+
+
+
